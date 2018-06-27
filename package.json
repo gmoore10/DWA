@@ -1,0 +1,19 @@
+{
+  "name": "1807_colab",
+  "version": "1.0.0",
+  "description": "Dynamic Form Builder Project for DWA",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reactivepixel/1807_colab.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reactivepixel/1807_colab/issues"
+  },
+  "homepage": "https://github.com/reactivepixel/1807_colab#readme"
+}
