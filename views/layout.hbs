@@ -54,6 +54,18 @@
           formInputsArray.push("label")
           generateList();
         })
+
+        $("#elementsForm").submit(function(event) {
+          event.preventDefault();
+          console.log("text")
+          let postMethod = $.post( "/", { elements: formInputsArray })
+          
+          postMethod.done(function(data) {
+            $("#result").html();
+            $("#result").text(data);
+          })
+          
+        })
       });
     </script>
   </body>
